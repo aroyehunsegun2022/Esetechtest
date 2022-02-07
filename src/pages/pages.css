@@ -1,6 +1,7 @@
 .e__home{
     display: flex;
     flex-direction: row;
+    background: linear-gradient(89.97deg, #081221 1.84%, #03080f 102.67%);
 }
 
 .card{
