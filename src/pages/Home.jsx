@@ -31,7 +31,7 @@ const Home = () => {
     return (
         <div className='e__home'>
             <div className='filter'>
-                <Filter searchinput={searchmovies} onFormChange={formChange} formSubmit={handleFormSubmit}/>
+                <Filter searchinput={searchmovies} onFormChange={formChange} formSubmit={handleFormSubmit} />
             </div>
             <div className='card'>
                 <Card movies={filteredMovies} />

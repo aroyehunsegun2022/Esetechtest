@@ -19,11 +19,11 @@ const Filter = ({searchinput, onFormChange, formSubmit}) => {
                     <div><label>Name(contains)</label><br/><input type='text' value={searchinput} placeholder='text string' className='form-control' onChange={handleChange} /></div>
                     <div><label>Order By</label><br/>
                     <select className='form-control'>
-                        <option value=""></option>
-                        <option value=""></option>
+                        <option value="">Date</option>
+                        <option value="">Ratings</option>
                     </select>
                     </div>
-                    <div className='text-right'><button className='btn btn-primary mt-2'>Clear</button></div>
+                    <div className='text-right'><button className='btn btn-primary mt-2 mybtn'>Clear</button></div>
                 </form>
             </div>
         </div>
