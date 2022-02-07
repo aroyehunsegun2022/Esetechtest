@@ -1,0 +1,14 @@
+.e__filter-container{
+    background-color: #182c47;
+    width: 98%;
+    padding: 4rem 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-form{
+    width: 70%;
+}

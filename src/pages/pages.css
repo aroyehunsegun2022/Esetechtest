@@ -1,0 +1,12 @@
+.e__home{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    flex: 2;
+}
+
+.filter{
+    flex: 1;
+}
